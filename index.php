@@ -45,7 +45,7 @@ if (file_exists($compilerConfig)) {
 }
 
 $mageFilename = MAGENTO_ROOT . '/app/Mage.php';
-$dbauxFilename = MAGENTO_ROOT . '/app/Dbaux.php';
+$secondOpinionFilename = MAGENTO_ROOT . '/app/secondOpinion.php';
 $maintenanceFile = 'maintenance.flag';
 
 if (!file_exists($mageFilename)) {
@@ -64,7 +64,7 @@ if (file_exists($maintenanceFile)) {
 
 require MAGENTO_ROOT . '/app/bootstrap.php';
 require_once $mageFilename;
-require_once $dbauxFilename;
+require_once $secondOpinionFilename;
 
 #Varien_Profiler::enable();
 

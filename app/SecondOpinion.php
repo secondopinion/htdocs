@@ -3,12 +3,12 @@
 /**
  */
 
-if (($_ws = Dbaux::getCurrentWebsite())) {
+if (($_ws = SecondOpinion::getCurrentWebsite())) {
     $_SERVER['MAGE_RUN_CODE'] = $_ws;
     $_SERVER['MAGE_RUN_TYPE'] = 'website';
 }
 
-class Dbaux 
+class SecondOpinion 
 {
     public static function getCurrentWebsite()
     {
