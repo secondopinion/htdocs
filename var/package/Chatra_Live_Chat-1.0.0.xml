@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Chatra_Live_Chat</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license>GNU GPLv2</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Chat with your website visitors, increase sales and collect feedback.</summary>
+    <description>Chat with your website visitors, increase sales and collect feedback. Powerful plugin, free as long as you want.</description>
+    <notes>Stable version.</notes>
+    <authors><author><name>Chatra</name><user>Chatra</user><email>info@eraga.net</email></author></authors>
+    <date>2015-09-09</date>
+    <time>12:35:06</time>
+    <contents><target name="magelocal"><dir name="Chatra"><dir name="Chatrawidget"><dir name="Block"><file name="Chatrawidget.php" hash="9d1d1515195b434463700f81c5dcf7a2"/><dir name="System"><dir name="Config"><dir name="Chatrawidget"><file name="Info.php" hash="34f3706c35120b2588c675639e724509"/></dir></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="ee87113412ccbc279e42c76914946de9"/></dir><dir name="controllers"><file name="IndexController.php" hash="4bf03b8fe79398f091d58f688949c8c4"/></dir><dir name="etc"><file name="config.xml" hash="a1a968f27684e497d42673c383ebe0a9"/><file name="system.xml" hash="56c4c3f3fa613aab7945f484b2c05d71"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="chatrawidget.xml" hash="77a624edb1d6ba6e140f2207fd0e4d68"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Chatra_Chatrawidget.xml" hash="30ec0f31355e0db7078d3386a0b634ae"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.0.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

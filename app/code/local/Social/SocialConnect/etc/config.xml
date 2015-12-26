@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+/**
+* Social
+*
+* NOTICE OF LICENSE
+*
+* This source file is subject to the Open Software License (OSL 3.0)
+* that is bundled with this package in the file LICENSE.txt.
+* It is also available through the world-wide-web at this URL:
+* http://opensource.org/licenses/osl-3.0.php
+* If you did not receive a copy of the license and are unable to
+* obtain it through the world-wide-web, please send an email
+* to license@magentocommerce.com so we can send you a copy immediately.
+*
+* DISCLAIMER
+*
+* Please do not edit or add to this file if you wish to upgrade
+* Magento or this extension to newer versions in the future.
+** Social *give their best to conform to
+* "non-obtrusive, best Magento practices" style of coding.
+* However,* Social *guarantee functional accuracy of
+* specific extension behavior. Additionally we take no responsibility
+* for any possible issue(s) resulting from extension usage.
+* We reserve the full right not to provide any kind of support for our free extensions.
+* Thank you for your understanding.
+*
+* @category Social
+* @package SocialConnect
+* @author Marko Martinović <marko.martinovic@social.net>
+* @copyright Copyright (c) Social (http://social.net/)
+* @license http://opensource.org/licenses/osl-3.0.php Open Software License (OSL 3.0)
+*/
+-->
+
+<config>
+    <modules>
+        <Social_SocialConnect>
+            <version>0.2.3</version>
+        </Social_SocialConnect>
+    </modules>
+    <default>
+        <customer>
+            <social_socialconnect_google>
+                <enabled>0</enabled>
+            </social_socialconnect_google>
+            <social_socialconnect_facebook>
+                <enabled>0</enabled>
+            </social_socialconnect_facebook>	    
+            <social_socialconnect_twitter>
+                <enabled>0</enabled>
+            </social_socialconnect_twitter>	    	    
+        </customer>
+    </default>
+    <frontend>
+        <translate>
+            <modules>
+                <Social_SocialConnect>
+                     <files>
+                        <default>Social_SocialConnect.csv</default>
+                     </files>
+                </Social_SocialConnect>
+            </modules>
+        </translate>        
+        <layout>
+            <updates>
+                <social_socialconnect>
+                    <file>social_socialconnect.xml</file>
+                </social_socialconnect>
+            </updates>
+        </layout>
+    </frontend>    
+    <global>
+        <models>
+            <social_socialconnect>
+                <class>Social_SocialConnect_Model</class>
+            </social_socialconnect>
+        </models>
+        <blocks>
+            <social_socialconnect>
+                <class>Social_SocialConnect_Block</class>
+            </social_socialconnect>            
+        </blocks>
+        <helpers>
+            <social_socialconnect>
+                <class>Social_SocialConnect_Helper</class>
+            </social_socialconnect>
+        </helpers>
+        <resources>
+            <social_socialconnect_setup>
+                <setup>
+                    <module>Social_SocialConnect</module>
+                    <class>Social_SocialConnect_Model_Resource_Setup</class>
+                </setup>
+            </social_socialconnect_setup>
+        </resources>        
+    </global>
+    <frontend>
+        <routers>
+            <social_socialconnect>
+                <use>standard</use>
+                <args>
+                    <module>Social_SocialConnect</module>
+                    <frontName>socialconnect</frontName>
+                </args>
+            </social_socialconnect>
+        </routers>  
+    </frontend>    
+</config>

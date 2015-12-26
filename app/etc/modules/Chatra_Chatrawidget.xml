@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Chatra_Chatrawidget>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Chatra_Chatrawidget>
+    </modules>
+</config>
