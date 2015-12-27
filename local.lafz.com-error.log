@@ -117,3 +117,4 @@
 [Fri Dec 04 15:58:57.418627 2015] [access_compat:error] [pid 1080] [client 127.0.0.1:57966] AH01797: client denied by server configuration: /Users/shehfinazkadavil/Documents/lafz/app/etc/local.xml
 [Thu Dec 24 23:15:23.018137 2015] [access_compat:error] [pid 688] [client 127.0.0.1:49735] AH01797: client denied by server configuration: /Users/shehfinazkadavil/Documents/lafz/app/etc/local.xml
 [Thu Dec 24 23:30:28.018451 2015] [access_compat:error] [pid 681] [client 127.0.0.1:50131] AH01797: client denied by server configuration: /Users/shehfinazkadavil/Documents/lafz/app/etc/local.xml
+[Sat Dec 26 23:56:11.472014 2015] [access_compat:error] [pid 489] [client 127.0.0.1:52925] AH01797: client denied by server configuration: /Users/shehfinazkadavil/Documents/lafz/app/etc/local.xml
